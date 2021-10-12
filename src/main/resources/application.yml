@@ -1,0 +1,10 @@
+server:
+  port: 8081
+localstack:
+  host: localhost
+aws:
+  region: us-east-1
+  sqs:
+    process-order-queue: http://localhost:4566/000000000000/process-order-queue
+  access-key: teste
+  secret-key: teste
